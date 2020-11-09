@@ -1,0 +1,150 @@
+body{
+margin: 0 auto;
+
+}
+
+#game{
+background-color: darkmagenta;
+width: 100%;
+height: 60vh;
+margin: 10vh auto;
+position: relative;
+
+
+}
+
+#squareToClick{
+height: 35vh;
+width: 35vh;
+background-color: rgb(124, 228, 38);
+border-radius: 100px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+#squareToClick:active{
+    height: 35.5vh;
+    width: 35.5vh;
+}
+
+#squareToClick:hover{
+    opacity: 0.9;
+}
+
+
+#point{
+color: black;
+font-size: 40px;
+text-align: center;
+user-select: none;
+}
+
+
+#shop{
+    width: 20%;
+    height: 100%;
+    background-color: darkgreen;
+    position: absolute;
+}
+
+#gameSquares1{
+margin: 0 auto;
+background-color: rgb(54, 153, 137);
+height: 20%;
+width: 100%;
+position:relative;
+text-align: center;
+user-select: none;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+}
+
+#gameSquares1:hover{
+    opacity: 0.9;
+}
+
+#gameSquares1:active{
+    opacity: 0.8;
+}
+
+#gameSquares2{
+    margin: 0 auto;
+    background-color: rgb(54, 190, 168);
+    height: 20%;
+    width: 100%;
+    position:relative;
+    text-align: center;
+    user-select: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    }
+
+#gameSquares2:hover{
+        opacity: 0.9;
+    }
+
+#gameSquares2:active{
+        opacity: 0.8;
+    }
+
+#gameSquares3{
+        margin: 0 auto;
+        background-color: rgb(81, 218, 195);
+        height: 20%;
+        width: 100%;
+        position:relative;
+        text-align: center;
+        user-select: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        }
+    
+#gameSquares3:hover{
+            opacity: 0.9;
+        }
+    
+#gameSquares3:active{
+            opacity: 0.8;
+        }
+
+#gameSquares4{
+            margin: 0 auto;
+            background-color: rgb(137, 235, 218);
+            height: 20%;
+            width: 100%;
+            position:relative;
+            text-align: center;
+            user-select: none;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            }
+        
+#gameSquares4:hover{
+            opacity: 0.9;
+            }
+        
+#gameSquares4:active{
+            opacity: 0.8;
+            }
+
+#gameSquares5{
+                margin: 0 auto;
+                background-color: rgb(183, 241, 232);
+                height: 20%;
+                width: 100%;
+                position:relative;
+                text-align: center;
+                user-select: none;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 20px;
+                }
+            
+#gameSquares5:hover{
+                opacity: 0.9;
+                }
+            
+#gameSquares5:active{
+                opacity: 0.8;
+                }
